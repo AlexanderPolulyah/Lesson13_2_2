@@ -24,7 +24,7 @@
 }
 .centerSection{
     /* height: 20%; */
-    width: 30%; 
+    width: 30%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
