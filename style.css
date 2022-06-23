@@ -1,0 +1,59 @@
+.header{ 
+    background-color: yellow;
+}
+.asideLeft{
+    background-color: red;
+}
+.asideRight{
+    background-color: blue;
+}
+.footer{
+    background-color: green;
+}
+.header, .footer{
+    text-align: center;
+}
+.asideLeft, .asideRight{
+    min-height: 100px;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin: 0px; */
+}
+.centerSection{
+    /* height: 20%; */
+    width: 30%; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: .7em;
+    border-width: 1px;
+    border-style: double;
+    margin: 15px 5px;
+}
+.centerImage{
+    height: 20%;
+    width: 20%;
+    align-self: center;
+}
+.centerSection h5, .centerSection p{
+    align-self: center;
+}
+.centerSection button{
+    width: 80%;
+    align-self: center;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+@media (max-width: 575px){
+    .center{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+}
